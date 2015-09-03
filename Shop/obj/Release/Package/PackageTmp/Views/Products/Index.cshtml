@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Shop.Models.Product>
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<h2>Products</h2>
+<p>
+    @Html.ActionLink("Add", "Create")
+</p>
+
+<table>
+    <tr><td>Name</td></tr>
+    @foreach (var product in Model)
+    {
+        <tr><td>@Html.ActionLink(product.Name, "Create")</td></tr>
+    }
+</table>

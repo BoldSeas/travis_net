@@ -1,0 +1,26 @@
+﻿@model Shop.Models.Mail
+
+@{
+    ViewBag.Title = "Mail";
+}
+
+<h2>Mail</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @Html.LabelFor(mail => mail.Receiver)
+        @Html.EditorFor(mail => mail.Receiver)
+    </div>
+    <div>
+        @Html.LabelFor(mail => mail.Title)
+        @Html.EditorFor(mail => mail.Title)
+    </div>
+    <div>
+        @Html.LabelFor(mail => mail.Content)
+        @Html.EditorFor(mail => mail.Content)
+    </div>
+
+    <input type="submit" id="Send" value="Send"/>
+}

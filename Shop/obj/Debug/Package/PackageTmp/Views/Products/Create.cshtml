@@ -1,0 +1,16 @@
+﻿@model Shop.Models.Product
+
+@{
+    ViewBag.Title = "Add a Product";
+}
+
+<h2>Add a Product</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.LabelFor(product => product.Name)
+    @Html.EditorFor(product => product.Name)
+
+    <input type="submit" id="save" value="Save"/>
+}

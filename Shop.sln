@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop", "Shop\Shop.csproj", "{446B3717-DD08-49AB-8785-9331F878FF61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Scenarios", "Shop.Scenarios\Shop.Scenarios.csproj", "{C6DBA748-EB77-469B-BEBC-00A75E31C92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{446B3717-DD08-49AB-8785-9331F878FF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446B3717-DD08-49AB-8785-9331F878FF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446B3717-DD08-49AB-8785-9331F878FF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446B3717-DD08-49AB-8785-9331F878FF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DBA748-EB77-469B-BEBC-00A75E31C92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DBA748-EB77-469B-BEBC-00A75E31C92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DBA748-EB77-469B-BEBC-00A75E31C92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DBA748-EB77-469B-BEBC-00A75E31C92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
